@@ -1,0 +1,180 @@
+/* Global Styles & Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    font-size: 18px; /* High readability */
+}
+
+/* Layout */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+/* Typography */
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #111;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    color: #222;
+    border-bottom: 2px solid #eee; /* Subtle editorial touch */
+    padding-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.subheadline {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.byline {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    font-style: italic;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 5px solid #0056b3;
+    padding-left: 20px;
+    margin: 30px 0;
+    font-style: italic;
+    font-size: 20px;
+    color: #444;
+    background: #fdfdfd;
+    padding: 20px;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 4px;
+}
+
+.img-caption {
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+    margin-top: -25px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+/* Lists */
+ul {
+    margin-bottom: 25px;
+    padding-left: 40px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Call to Action (CTA) Buttons */
+.cta-button {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #0056b3; /* Strong Blue for Trust/Medical */
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.cta-button:hover {
+    background-color: #004494;
+    text-decoration: none;
+}
+
+.cta-button.mid-cta {
+    background-color: #28a745; /* Green for "Go" / Solution */
+}
+
+.cta-button.mid-cta:hover {
+    background-color: #218838;
+}
+
+.cta-subtext {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
+
+/* Footer & Disclaimer */
+footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    color: #888;
+    font-size: 12px;
+}
+
+.disclaimer {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    body {
+        font-size: 17px;
+    }
+}
